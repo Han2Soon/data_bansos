@@ -7,7 +7,7 @@ $pengguna = mysqli_fetch_array($query);
 <div class="container" style="margin-top: 50px;">
 </div>
 <h3 class="text-center mb-4 badge bg-dark w-25 p-3 fs-6 fw-bold">Edit Data Pengguna</h3><br>
-<form action="update_masyarakat.php" method="post">
+<form action="update_pengguna.php" method="post">
         <table class="table table-borderd table-danger">
         <tr>
                 <td>ID</td>
