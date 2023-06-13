@@ -12,5 +12,5 @@ if ($update){
 }else{
     $status = "gagal";
 }
-header("location:desa.php?status=".$status);
+header("location:edit_desa.php?status=".$status."&id_desa=".$id_desa);
 ?>

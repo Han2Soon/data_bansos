@@ -14,5 +14,5 @@ if ($insert){
 }else{
     $status = "gagal";
 }
-header("location:kecamatan.php?status=".$status);   
+header("location:tambah_kecamatan.php?status=".$status);   
 ?>

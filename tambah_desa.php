@@ -1,4 +1,22 @@
 <?php include 'header.php'?>
+
+<?php if (isset($_GET['status'])) : ?>
+  <?php if ($_GET['status'] === 'berhasil') : ?>
+    <div id="success-alert" class="alert alert-success" role="alert">
+      Berhasil tambahkan data desa!
+    </div>
+  <?php elseif ($_GET['status'] === 'gagal') : ?>
+    <div id="error-alert" class="alert alert-danger" role="alert">
+      Gagal tambahkan data desa!
+    </div>
+  <?php elseif ($_GET['status'] === 'gagal_nama_kecamatan') : ?>
+    <div id="error-alert" class="alert alert-danger" role="alert">
+      Gagal tambahkan data! Nama desa sudah ada.
+    </div>
+  <?php endif; ?>
+<?php endif; ?>
+
+
 <div class="container" style="margin-top: 50px;">
 </div>
 <h3 class="text-center mb-4 badge bg-dark w-25 p-3 fs-6 fw-bold">Tambah Desa</h3><br>

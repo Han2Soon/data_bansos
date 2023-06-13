@@ -14,5 +14,5 @@ if ($insert){
 }else{
     $status = "gagal";
 }
-header("location:desa.php?status=".$status);   
+header("location:tambah_desa.php?status=".$status);   
 ?>

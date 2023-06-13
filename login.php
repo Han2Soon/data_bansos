@@ -9,11 +9,11 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 
     <style>
-            body {
-        background-size:100% 100%;
-        background-image: url('jokowi.jpeg');
-        background-attachment:fixed;
-      }
+        body {
+            background-size: 100% 100%;
+            background-image: url('jokowi.jpeg');
+            background-attachment: fixed;
+        }
 
         body {
             display: flex;
@@ -76,32 +76,27 @@
 </head>
 
 <body>
-<form class="form-signin" action="cek_login.php" method="POST">
-    <div class="form-bg">
-                    <div class="form-container">
-                        <form class="form-horizontal">
-                            <h3 class="title">Login</h3>
-                            <div class="form-group">
-                                <span class="input-icon"><i class="fa fa-envelope"></i></span>
-                                <input type="text" name="usernama" placeholder="Username" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <span class="input-icon"><i class="fa fa-lock"></i></span>
-                                <input type="password" name="password" placeholder="Password" class="form-control">
-                            </div>
-                            <button class="btn btn-primary signin">Login</button>
-                            <span class="forgot-pass"><a href="#">Forgot Username/Password?</a></span>
-                        </form>
-                        <div class="form-icon">
-                            <i class="fa fa-user-circle"></i>
-                            <span class="signup"><a href="">Belum Punya Akun? <a href="daftar.php"> Daftar Sekarang</a></span>
-                          
-                        </div>
-                    </div>
+    <form class="form-signin" action="cek_login.php" method="POST">
+        <div class="form-bg">
+            <div class="form-container">
+                <h3 class="title">Login</h3>
+                <div class="form-group">
+                    <span class="input-icon"><i class="fa fa-envelope"></i></span>
+                    <input type="text" name="usernama" placeholder="Username" class="form-control">
+                </div>
+                <div class="form-group">
+                    <span class="input-icon"><i class="fa fa-lock"></i></span>
+                    <input type="password" name="password" placeholder="Password" class="form-control">
+                </div>
+                <button class="btn btn-primary signin">Login</button>
+                <span class="forgot-pass"><a href="#">Forgot Username/Password?</a></span>
+                <div class="form-icon">
+                    <i class="fa fa-user-circle"></i>
+                    <span class="signup">Belum Punya Akun? <a href="daftar.php"> Daftar Sekarang</a></span>
                 </div>
             </div>
         </div>
-    </div>
+    </form>
 </body>
 
 </html>
