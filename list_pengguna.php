@@ -72,7 +72,7 @@
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-                      <a href="delete_pengguna.php?nik=<?php echo $row['id']; ?>" class="btn btn-danger">Hapus</a>
+                      <a href="delete_pengguna.php?id=<?php echo $row['id']; ?>" class="btn btn-danger">Hapus</a>
                     </div>
                   </div>
                 </div>
